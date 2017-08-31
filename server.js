@@ -22,6 +22,6 @@ const db = require("./utils/db.js");
 require('./utils/routes.js')(app);
 
 
-http.listen(81,function(){
-    console.log("Listening on http://127.0.0.1:81");
+http.listen(8080,function(){
+    console.log("Listening on http://127.0.0.1:8080");
 });
