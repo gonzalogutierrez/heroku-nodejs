@@ -10,7 +10,7 @@ const  mongodb=require('mongodb');
 const MongoClient = mongodb.MongoClient;
 const ObjectID = mongodb.ObjectID;
 const assert = require('assert');
-const MongoUrl='mongodb://localhost:27017/dbProgramacionColaborativa';
+const MongoUrl='mongodb://admin:admin@ds115214.mlab.com:15214/dbprogramacioncolaborativa';
 
 module.exports.onConnect = function(callback){    
     MongoClient.connect(MongoUrl, function(err, db) {
